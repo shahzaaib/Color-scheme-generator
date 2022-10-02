@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color scheme api</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="container">
+        <form id="color-form">
+            <input type="color" id="color-input" value="#ffffff" />
+            <select name="color-box" id="color-api">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="complement">Complement</option>
+                <option value="analogic">Analogic</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+                <option value="analogic-complement">Analogic-complement</option>
+            </select>
+            <!-- 
+            <button id="color-button" type="button"></button>
+            <label for="lang">Color Picker</label>
+            <select name="languages" id="colorId">*?
+                -->
+            <button id="color-submit">Get color scheme</button>
+        </form>
+        <div id="color-container-display">
+        </div>
+       
+
+    </div>
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
